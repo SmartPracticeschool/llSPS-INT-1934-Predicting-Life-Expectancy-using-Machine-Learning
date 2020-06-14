@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:apikey",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.apikey",
+      "env:service_cloudant:$.apikey",
+      "env:cloudant_apikey",
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:username",
+        "cloudfoundry:cloudant",
+        "env:cloudant_credentials",
+        "file:/server/localdev-config.json:cloudant_credentials"
+      ]
+    }
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:host",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.host",
+      "env:service_cloudant:$.host",
+      "env:cloudant_host",
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:iam_apikey_description",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_description",
+      "env:service_cloudant:$.iam_apikey_description",
+      "env:cloudant_iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:iam_apikey_name",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_name",
+      "env:service_cloudant:$.iam_apikey_name",
+      "env:cloudant_iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:iam_role_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_role_crn",
+      "env:service_cloudant:$.iam_role_crn",
+      "env:cloudant_iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:iam_serviceid_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_serviceid_crn",
+      "env:service_cloudant:$.iam_serviceid_crn",
+      "env:cloudant_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_password": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:password",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.password",
+      "env:service_cloudant:$.password",
+      "env:cloudant_password",
+      "file:/server/localdev-config.json:$.cloudant_password"
+    ]
+  },
+  "cloudant_port": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:port",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.port",
+      "env:service_cloudant:$.port",
+      "env:cloudant_port",
+      "file:/server/localdev-config.json:$.cloudant_port"
+    ]
+  },
+  "cloudant_url": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:url",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.url",
+      "env:service_cloudant:$.url",
+      "env:cloudant_url",
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "user-provided:life-expectancy-pred-cloudant-1591614480562-24764:username",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.username",
+      "env:service_cloudant:$.username",
+      "env:cloudant_username",
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  }
+}

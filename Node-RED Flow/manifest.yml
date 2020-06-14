@@ -1,0 +1,15 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: lifeexpectancyprediction
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 256MB
+  domain: mybluemix.net
+  host: life-expectancy-prediction-app
+  services:
+    - life-expectancy-pred-cloudant-1591614480562-24764
+  env:
+    OPTIMIZE_MEMORY: true
