@@ -11,7 +11,7 @@ For the Life Expectancy prediction, user will have to give input values of vario
 ## Video Demonstration 
 <html>
  <body>
-  <a href="https://drive.google.com/file/d/1U3j-DaKgO-MHWvYrSdrVNsM3DwlvUbii/view?usp=sharing">Click Here</a>
+  <a href="https://drive.google.com/file/d/1U3j-DaKgO-MHWvYrSdrVNsM3DwlvUbii/view?usp=sharing">Click Here To Watch</a>
  </body>
 </html>
   
@@ -22,6 +22,14 @@ The web-app has IBM Watson Machine Learning as its backend service and Node-RED 
   <img src="Output/flow.png" height="300" width="500">
  </body>
 </html>
+
+## Node-RED Flow
+<html>
+ <body>
+  <img src="Output/node-red-flow.png" height="300" width="500">
+ </body>
+</html>
+
   
           
           
