@@ -8,8 +8,12 @@ Calculating Life Expectancy will require a sophisticated system that will take i
 A typical Regression Machine Learning project leverages historical data to predict insights into the future. This problem statement is aimed at predicting Life Expectancy rate of a country given various features.
 For the Life Expectancy prediction, user will have to give input values of various features and after analyzing these features, the Machine Learning model will pass its prediction to the user and also indicate whether the predicted value is Safe Life Expectancy Rate, or the country needs to improve its factors.
 
-## Watch Video Demonstration: <html><body><a href="https://drive.google.com/file/d/1U3j-DaKgO-MHWvYrSdrVNsM3DwlvUbii/view?usp=sharing
-  ">Click Here</a></body></html>
+## Watch Video Demonstration: 
+<html>
+ <body>
+  <a href="https://drive.google.com/file/d/1U3j-DaKgO-MHWvYrSdrVNsM3DwlvUbii/view?usp=sharing">Click Here</a>
+ </body>
+</html>
   
 ## SOFTWARE DESIGNING
 The web-app has IBM Watson Machine Learning as its backend service and Node-RED for the User Interface development. The web-app has been deployed on IBM Cloud as a Web Service. Basic Flow is as follows:
