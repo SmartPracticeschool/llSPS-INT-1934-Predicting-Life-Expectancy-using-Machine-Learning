@@ -24,11 +24,13 @@ The JSON File for Node-RED Flow is available <html><body><a href="Node-RED Flow/
 ## Result
 Removal of feature Population yielded better results. Replacement of missing values enabled the model to learn more examples and generalize well. 
 ExtraTreesRegresssor was the top-performer in all the experiments. The RMSE and R2 scores of Machine Learning and AutoAI Model are as follows:  
-<html><body><table border="3" style="display:inline-block">
- <tr><th>Metrics</th><th>Machine Learning Model</th><th>AutoAI Model</th></tr>
- <tr><td>R2 Score</td><td>0.9635483479199352</td><td>0.96050013469328</td></tr>
- <tr><td>RMSE</td><td>1.7714090404600051</td><td>1.829561183885059</td></tr>
- </table></body></html>
+<html><body>
+ <table border="3">
+  <tr><th>Metrics</th><th>Machine Learning Model</th><th>AutoAI Model</th></tr>
+  <tr><td>R2 Score</td><td>0.9635483479199352</td><td>0.96050013469328</td></tr>
+  <tr><td>RMSE</td><td>1.7714090404600051</td><td>1.829561183885059</td></tr>
+ </table>
+ </body></html>
 The testing results convinced that the trained model has generalized well and can give better predictions to a great extent.
 
 ## Advantages & Disadvantages
