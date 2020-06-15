@@ -32,17 +32,17 @@ ExtraTreesRegresssor was the top-performer in all the experiments. The RMSE and 
 The testing results convinced that the trained model has generalized well and can give better predictions to a great extent.
 
 ## Advantages & Disadvantages
-The following can be the Advantages:<html><body><br>
+The following can be the Advantages:<html><body><br><br>
 ●	Predicting Life Expectancy has the potential to benefit individuals, health service providers and governments.<br>
 ●	The web-app provides user-friendly interface, it also displays the necessary information about the app so that the user understands what he has to do and how the app will work accordingly.<br>
 ●	The prediction is returned to user in a short-time and user is intended about the prediction through notification. The prediction is also outputted in the web-app and a visual representation about the same is shown.<br></body></html>
 
-The following can be the Disadvantages:<html><body><br>
+The following can be the Disadvantages:<html><body><br><br>
 ●	The web-app is not handy to use for users as it is not a mobile app.<br>
 ●	The user has to input all the fields and only then the prediction will be given to the user. However, inputting all these values is a tiresome job, and the user cannot input these values through speech.<br></body></html>
 
 ## Applications
-The following can be the Applications:<html><body><br>
+The following can be the Applications:<html><body><br><br>
 ●	People can become more aware of their general health and improvise on it. Insurance Companies can use these predictions to provide individualized services.<br>
 ●	Governments can use predictions to allocate limited resources efficiently. Social welfare, Health-care funding to individuals and in areas of greater needs can be assigned effectively.<br>
 ●	It can benefit for policy making, and help optimize an individual’s health, or the services they receive.<br></body></html>
@@ -53,7 +53,7 @@ There still can be more improvements in the model by doing Feature Engineering, 
 <html><body><img src="Output/web-app.png" height="500" width="700"></body></html>
 
 ## Future Scope
-The following can be the Improvements and Future Scope:<html><body><br>
+The following can be the Improvements and Future Scope:<html><body><br><br>
 ●	Making the model more accurate, doing more relevant feature extraction.<br>
 ●	Creating a mobile app for more convenience.<br>
  ●	Modifying the model so that it will accept speech-driven inputs too.<br></body></html>
