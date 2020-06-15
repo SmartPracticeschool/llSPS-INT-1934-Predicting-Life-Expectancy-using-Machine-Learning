@@ -17,7 +17,14 @@ For the Life Expectancy prediction, user will have to give input values of vario
   
 ## Flow
 The web-app has IBM Watson Machine Learning as its backend service and Node-RED for the User Interface development. The web-app has been deployed on IBM Cloud as a Web Service. Basic Flow is as follows:
-<img src="/Output/flow.jpg>
+<html>
+ <body>
+<img src="/Output/flow.jpg">
+  </body>
+</html>
+  
+          
+          
 
 
   
