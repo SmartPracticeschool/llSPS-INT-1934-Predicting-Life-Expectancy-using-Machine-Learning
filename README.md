@@ -18,7 +18,7 @@ The web-app has IBM Watson Machine Learning as its backend service and Node-RED 
 <html><body><img src="Output/flow.png" height="300" width="500"></body></html>
 
 ## IBM Watson Machine Learning
-The Dataset and Notebooks are available <html><body><a href="IBM Watson Project/assets/notebook">HERE</a>.<br><br>
+The Dataset and Notebooks are available <html><body><a href="IBM Watson Project/assets">HERE</a>.<br><br>
 
 ## Node-RED Flow
 The JSON File for Node-RED Flow is available <html><body><a href="Node-RED Flow/flows.json">HERE</a>.<br><br>
