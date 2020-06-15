@@ -17,6 +17,9 @@ For the Life Expectancy prediction, user will have to give input values of vario
 The web-app has IBM Watson Machine Learning as its backend service and Node-RED for the User Interface development. The web-app has been deployed on IBM Cloud as a Web Service. Basic Flow is as follows:
 <html><body><img src="Output/flow.png" height="300" width="500"></body></html>
 
+## IBM Watson Machine Learning
+The Dataset and Notebooks are available <html><body><a href="IBM Watson Project/assets/notebook">HERE</a>.<br><br>
+
 ## Node-RED Flow
 The JSON File for Node-RED Flow is available <html><body><a href="Node-RED Flow/flows.json">HERE</a>.<br><br>
 <img src="Output/node-red-flow.png" height="300" width="500"></body></html>
@@ -25,7 +28,7 @@ The JSON File for Node-RED Flow is available <html><body><a href="Node-RED Flow/
 Removal of feature Population yielded better results. Replacement of missing values enabled the model to learn more examples and generalize well. 
 ExtraTreesRegresssor was the top-performer in all the experiments. The RMSE and R2 scores of Machine Learning and AutoAI Model are as follows:  
 <html><body>
- <table border="3">
+ <table>
   <tr><th>Metrics</th><th>Machine Learning Model</th><th>AutoAI Model</th></tr>
   <tr><td>R2 Score</td><td>0.9635483479199352</td><td>0.96050013469328</td></tr>
   <tr><td>RMSE</td><td>1.7714090404600051</td><td>1.829561183885059</td></tr>
