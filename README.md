@@ -11,7 +11,7 @@ For the Life Expectancy prediction, user will have to give input values of vario
 ## Video Demonstration 
 <html><body>
 <a href="https://drive.google.com/file/d/1U3j-DaKgO-MHWvYrSdrVNsM3DwlvUbii/view?usp=sharing">Click Here To Watch The Video Demonstration</a><br><br>
-<img src="Output/web-app.gif" height="300" width="500">
+
 </body></html>
   
 ## Flow
